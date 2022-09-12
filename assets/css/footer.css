@@ -1,0 +1,16 @@
+footer {
+    text-align: center;
+    color: #4f4f4f;
+    font-size: 14px;
+    font-weight: 500;
+    height: 9em;
+    margin-top: 9em;
+}
+
+@media screen and (max-width: 414px) {
+    
+    footer {
+        font-size: 35px;
+        margin-top: 5em;
+    }
+}

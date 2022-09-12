@@ -1,0 +1,17 @@
+body {
+    min-height: 100vh;
+    background: #171717;
+    font-family: 'DM Sans', sans-serif;
+    text-align: -webkit-center;
+}
+
+main {
+    width: fit-content;
+}
+
+@media screen and (max-width: 0px) {
+    body {
+        min-width: 100vh;
+    }
+    
+}

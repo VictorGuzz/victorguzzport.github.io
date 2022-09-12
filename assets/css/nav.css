@@ -1,0 +1,54 @@
+#git {
+    color: #FFFFFE;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+
+.nav__lista {
+    display: flex;
+    color: #FFFFFE;
+}
+
+
+.nav__itens
+ {
+    margin-left: 5%;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.nav__itens a:hover {
+    text-decoration: underline;
+    color: #cc0000;
+
+}
+
+.nav__menu {
+    white-space: nowrap;
+}
+
+
+@media screen and (max-width: 414px){
+    .nav__container {
+        margin-top: 2%;
+        display: block;
+    }
+
+    #git {
+        font-size: 80px;
+    }
+
+    .nav__lista {
+        position: absolute;
+        left: -130%;
+    }
+}

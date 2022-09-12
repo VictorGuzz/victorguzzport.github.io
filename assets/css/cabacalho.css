@@ -1,0 +1,78 @@
+.cabecalho {
+    margin-top: 10%;
+    height: 38rem;
+    text-align: end;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabecalho__container {
+    width: 453px;
+    height: 233px;
+    text-align: initial;
+    bottom: 260px;
+}
+
+.cabecalho h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color:#FFFFFF;
+}
+
+.cabecalho p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #828282;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#foto{
+    border-radius: 50%;
+    width: 600px;
+    height: 596.89px;
+    left: 1090.56pxpx;
+    top: 213.56px;
+}
+
+#download {
+    width: 143px;
+    height: 42px;
+    left: 130px;
+    top: 586px;
+    background: #cc0000;
+    color: #FFFFFF;
+}
+
+#mais {
+    box-sizing: border-box;
+    border: 1px solid #F2F2F2;
+    width: 143px;
+    height: 42px;
+    left: 283px;
+    top: 586px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 414px) {
+    .cabecalho {
+        width: 100%;
+    }
+
+    .cabecalho h1 {
+        font-size: 66px;
+    }
+
+    .cabecalho p {
+        font-size: 48px;
+    }
+
+    #download {
+        width: 224px;
+        height: 69px;
+        font-size: 32px;
+    }
+    
+}
