@@ -1,5 +1,6 @@
-.cabecalho {
+#cabecalho {
     margin-top: 10%;
+    margin-bottom: 17em;
     height: 38rem;
     text-align: end;
     display: flex;
@@ -14,13 +15,13 @@
     bottom: 260px;
 }
 
-.cabecalho h1 {
+#cabecalho h1 {
     font-size: 48px;
     font-weight: 700;
     color:#FFFFFF;
 }
 
-.cabecalho p {
+#cabecalho p {
     font-size: 18px;
     font-weight: 500;
     color: #828282;
@@ -57,15 +58,15 @@
 }
 
 @media screen and (max-width: 414px) {
-    .cabecalho {
+    #cabecalho {
         width: 100%;
     }
 
-    .cabecalho h1 {
+    #cabecalho h1 {
         font-size: 66px;
     }
 
-    .cabecalho p {
+    #cabecalho p {
         font-size: 48px;
     }
 
