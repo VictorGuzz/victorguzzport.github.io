@@ -27,14 +27,14 @@
             <h1 id="git">VictorGuzz</h1>
             <div class="nav__menu">
                 <ul class="nav__lista">
-                    <li class="nav__itens"><a href="/">Sobre mim</a></li>
-                    <li class="nav__itens"><a href="/">Serviços</a></li>
-                    <li class="nav__itens"><a href="/">Contate-me</a></li>
+                    <li class="nav__itens"><a href="#sobre">Sobre mim</a></li>
+                    <li class="nav__itens"><a href="#capacidades">Serviços</a></li>
+                    <li class="nav__itens"><a href="#contato">Contate-me</a></li>
                 </ul>
             </div>
         </nav>
-        <header class="cabecalho">
-            <div class="cabecalho__container">
+        <header id="cabecalho">
+            <div class="cabecalho__container" data-anime="left">
                 <h1>Olá, Eu sou <br>Victor Gustavo</h1>
                 <p>Frontend Developer</p>
                 <button id="download">Download CV</button>
@@ -44,13 +44,13 @@
                 <img id='foto' src="assets/img/eu2.jpg" alt="minha foto">
             </div>
         </header>
-        <section class="sobre">
-            <h1 class="sobre__titulo">Sobre</h1>
+        <section id="sobre">
+            <h1 class="sobre__titulo" data-anime="left">Sobre</h1>
             <div class="sobre__container">
-                <p class="sobre__conteudo">Iniciante na área da programação, atualmente trabalho com Frotend e Web Development, ainda não tive a chance de exercer o trabalho porém estou ancioso para começar, mesmo que seja como estagiário,
+                <p class="sobre__conteudo" data-anime="right">Iniciante na área da programação, atualmente trabalho com Frotend e Web Development, ainda não tive a chance de exercer o trabalho porém estou ancioso para começar, mesmo que seja como estagiário,
                     no meu Github estão alguns miniprojetos que eu já realizei.</p>
             </div>
-            <div class="sobre__container--2">
+            <div class="sobre__container--2" data-anime="up">
                 <div class="sobre__minicontainer">
                     <img src="assets/img/facebook.svg" alt="facebook">
                     <a href="https://www.facebook.com/victor.gustavo.9828"><h1>Facebook</h1></a>
@@ -73,11 +73,11 @@
                 </div>
             </div>
         </section>
-        <section class="capacidades">
-            <h1 class="capacidades__titulo">O que eu faço</h1>
-            <div class="capacidades__container">
+        <section id="capacidades">
+            <h1 class="capacidades__titulo" data-anime="left">O que eu faço</h1>
+            <div class="capacidades__container" data-anime="up">
                 <div class="capacidades__minicontainer">
-                    <img class="icone" id='icone__vector' src="assets/img/vector.png" alt="vector">
+                    <img class="icone" id='icone__vector' src="assets/img/Vector.png" alt="vector">
                     <h1>Software Development</h1>
                 </div>
                 <div class="capacidades__minicontainer">
@@ -90,9 +90,9 @@
                 </div>
             </div>
         </section>
-        <section class="skills">
-            <h1 id="skills__titulo">Minhas Habilidades</h1>
-            <div class="skills__container">
+        <section id="skills">
+            <h1 id="skills__titulo" data-anime="left">Minhas Habilidades</h1>
+            <div class="skills__container" data-anime="up">
                 <div>
                     <h1>50%</h1>
                     <p>HTML</p>
@@ -111,18 +111,19 @@
                 </div>
             </div>
         </section>
-        <section class="contato">
-            <h1 class="contato__titulo">Contato</h1>
-            <input type="text" placeholder="Nome">
-            <input type="text" placeholder="Sobrenome"><br>
-            <input type="email" placeholder="Email">
-            <input type="tel" placeholder="Número de contato"><br>
-            <textarea name="Mensagem" id="Mensagem" cols="30" rows="10" placeholder="Mensagem"></textarea><br>
-            <button>Enviar</button>
+        <section id="contato">
+            <h1 class="contato__titulo" data-anime="left">Contato</h1>
+            <input type="text" placeholder="Nome" data-anime="up">
+            <input type="text" placeholder="Sobrenome" data-anime="up"><br>
+            <input type="email" placeholder="Email" data-anime="up">
+            <input type="tel" placeholder="Número de contato" data-anime="up"><br>
+            <textarea name="Mensagem" id="Mensagem" cols="30" rows="10" placeholder="Mensagem" data-anime="up"></textarea><br>
+            <button  data-anime="up">Enviar</button>
         </section>
         <footer>
             <p>© VictorGuzz 2022</p>
         </footer>
+        <script src="./assets/js/script.js"></script>
     </main>
 </body>
 </html>
