@@ -1,4 +1,4 @@
-body {
+body, html {
     min-height: 100vh;
     background: #171717;
     font-family: 'DM Sans', sans-serif;
@@ -10,7 +10,7 @@ main {
 }
 
 @media screen and (max-width: 0px) {
-    body {
+    body, html {
         min-width: 100vh;
     }
     
