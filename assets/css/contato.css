@@ -1,5 +1,6 @@
-.contato {
+#contato {
     text-align: center;
+    margin-top: 19em;
 }
 
 .contato__titulo {
@@ -9,7 +10,7 @@
     margin: 2em;
 }
 
-.contato input {
+#contato input {
     font-size: 14px;
     font-weight: 700;
     color: #4F4F4F;
@@ -20,7 +21,7 @@
     padding-bottom: 0.5em;
 }
 
-.contato textarea {
+#contato textarea {
     width: 750px;
     height: 109px;
     border: 1px solid #4F4F4F;
@@ -32,7 +33,7 @@
     margin-top: 1em;
 }
 
-.contato button {
+#contato button {
     width: 143px;
     height: 42px;
     color: #FFFFFF;
