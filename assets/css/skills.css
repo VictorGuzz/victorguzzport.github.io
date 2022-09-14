@@ -43,6 +43,27 @@
     text-align: center;
 }
 
+#html {
+    width: 93px;
+    margin-top: 8px;
+    margin-bottom: 6px;
+}
+
+#css {
+    width: 108px;
+}
+
+#js {
+    width: 82px;
+    margin-top: -15px;
+    margin-bottom: 6px;
+}
+
+#python {
+    width: 100px;
+    margin-bottom: 7px;
+}
+
 @media screen and (max-width: 414px) {
     
     #skills__titulo {
